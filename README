@@ -1,0 +1,25 @@
+# api with GOLANG
+
+### API Docs
+
+- JSON file at docs/insomnia_file.json
+
+### Run Database
+
+```
+$ docker-compose up --build
+```
+
+### Run Database
+
+```
+$ go run main.go
+```
+
+### Migrations
+
+- Migrations is auto runned when start the database
+
+```
+$ go run database/seeder/main.go
+```
